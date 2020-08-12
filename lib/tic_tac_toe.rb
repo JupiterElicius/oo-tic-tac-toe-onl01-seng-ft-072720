@@ -114,7 +114,7 @@ def winner
   index = []
   index = won?
   if index == false
-    return nil
+   nil
   else
     if @board[index[0]] == "X"
       return "X"
